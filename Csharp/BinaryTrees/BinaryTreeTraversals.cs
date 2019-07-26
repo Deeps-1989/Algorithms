@@ -1,13 +1,5 @@
 using System;
 namespace Csharp.BinaryTrees {
-    public class BinaryTree {
-      public BinaryTree(int data) {
-        this.data = data;
-      }
-      public BinaryTree left {get; set;}
-      public BinaryTree right { get; set;}
-      public int data {get; set;}
-    }
     public class InorderTraversal {
       public void DisplayTree(int data) {
         Console.WriteLine(data); 
@@ -24,9 +16,8 @@ namespace Csharp.BinaryTrees {
 
       }
     }
-    public class BinaryTreeTraversal {
+    public class BinaryTreeTraversals {
       public static void Main(String[] args) {
-        var btt = new BinaryTreeTraversal();
         var node1 = new BinaryTree(1);
         var node2 = new BinaryTree(2);
         var node3 = new BinaryTree(3);

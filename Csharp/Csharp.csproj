@@ -3,7 +3,7 @@
     <PropertyGroup>
         <TargetFramework>netcoreapp2.1</TargetFramework>
         <OutputType>Exe</OutputType>
-        <StartupObject>Csharp.BinarySearchTrees.BinaryTreeTraversal</StartupObject>
+        <StartupObject>Csharp.BinaryTrees.LevelOrderTraversal</StartupObject>
     </PropertyGroup>
 
 </Project>
