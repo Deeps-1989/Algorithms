@@ -41,10 +41,10 @@ namespace Csharp.LinkedLists {
     public void InsertAtIPosition(LinkedListNode root, int i) {
         var k = i;
         var count = GetLengthOfLinkedList();
-        if ( i > count ) {
+        if ( i  > count ) {
           InsertNodeAtEnd(root);
         } 
-        else if ( i < 0 || i == 1) {
+        else if ( i <= 0 || i == 1) {
           InsertNodeAtBeginning(root);
         }
         else {
