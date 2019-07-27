@@ -3,7 +3,7 @@
     <PropertyGroup>
         <TargetFramework>netcoreapp2.1</TargetFramework>
         <OutputType>Exe</OutputType>
-        <StartupObject>Csharp.LinkedLists.CircularLinkedLists</StartupObject>
+        <StartupObject>Csharp.Sorting.BubbleSort</StartupObject>
     </PropertyGroup>
 
 </Project>
