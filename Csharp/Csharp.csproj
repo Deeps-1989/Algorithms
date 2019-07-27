@@ -3,7 +3,7 @@
     <PropertyGroup>
         <TargetFramework>netcoreapp2.1</TargetFramework>
         <OutputType>Exe</OutputType>
-        <StartupObject>Csharp.LinkedLists.SingleLinkedList</StartupObject>
+        <StartupObject>Csharp.LinkedLists.CircularLinkedLists</StartupObject>
     </PropertyGroup>
 
 </Project>
