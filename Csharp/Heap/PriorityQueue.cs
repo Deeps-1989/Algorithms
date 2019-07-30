@@ -96,9 +96,7 @@ namespace Csharp.Heap {
       Console.WriteLine("n" + n);
       heap.Array[n-1] = key;
       var  i = (n-1);
-      Console.WriteLine("n -1 ele" + heap.Array[i]);
       var parentOfI = Parent(i);
-      Console.WriteLine("parentOfI" + parentOfI);
       while(parentOfI >= 0 && heap.Array[i] > heap.Array[parentOfI]) {
         heap.Array[i]  = heap.Array[parentOfI];
          i = parentOfI;
