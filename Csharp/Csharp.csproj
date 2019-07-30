@@ -3,7 +3,7 @@
     <PropertyGroup>
         <TargetFramework>netcoreapp2.1</TargetFramework>
         <OutputType>Exe</OutputType>
-        <StartupObject>Csharp.Sorting.InsertionSort</StartupObject>
+        <StartupObject>Csharp.Heap.PriorityQueue</StartupObject>
     </PropertyGroup>
 
 </Project>
