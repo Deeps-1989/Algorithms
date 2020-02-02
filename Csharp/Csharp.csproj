@@ -3,7 +3,7 @@
     <PropertyGroup>
         <TargetFramework>netcoreapp2.1</TargetFramework>
         <OutputType>Exe</OutputType>
-        <StartupObject>Csharp.Heap.PriorityQueue</StartupObject>
+        <StartupObject>Csharp.Graphs.DijkstraAlgorithm</StartupObject>
     </PropertyGroup>
 
 </Project>
