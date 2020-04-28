@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - KnapsackProblem",
+      "request": "launch",
+      "mainClass": "com.practise.DynamicProgramming.KnapsackProblem",
+      "projectName": "com.practise.graph.Graph"
+    },
+    {
+      "type": "java",
       "name": "Debug (Launch) - Current File",
       "request": "launch",
       "mainClass": "${file}"

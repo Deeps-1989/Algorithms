@@ -47,13 +47,11 @@ public class LongestPathInMatrix {
     public boolean findLongestPathUtil(final int[][] mat, final int i, final int j, final List<Integer> max_list) {
         max_list.add(mat[i][j]);
         for(int k = 0; k < row.length; k++) {
-
                 if (isSafeToAdd(mat, i, j, i + row[k], j+ col[k])) {
                     if(findLongestPathUtil(mat,i + row[k], j + col[k], max_list)) {
                         return true;
                     } 
                 }
-
         }
         return false;
     }
