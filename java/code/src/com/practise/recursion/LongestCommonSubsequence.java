@@ -1,4 +1,4 @@
-package com.practise.DynamicProgramming;
+package com.practise.recursion;
 
 import java.util.List;
 import java.util.ArrayList;

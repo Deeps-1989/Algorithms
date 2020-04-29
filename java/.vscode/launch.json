@@ -6,6 +6,47 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - LongestCommonSubsequence",
+      "request": "launch",
+      "mainClass": "com.practise.DynamicProgramming.LongestCommonSubsequence",
+      "projectName": "java_69a3b4e2"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - SubsetSumProblem",
+      "request": "launch",
+      "mainClass": "com.practise.backtracking.SubsetSumProblem",
+      "projectName": "java_69a3b4e2"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - StringRotationBy2Places",
+      "request": "launch",
+      "mainClass": "misc.String.StringRotationBy2Places",
+      "projectName": "java_69a3b4e2"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - KnapsackProblem",
+      "request": "launch",
+      "mainClass": "com.practise.DynamicProgramming.KnapsackProblem"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - KnapsackProblem",
+      "request": "launch",
+      "mainClass": "KnapsackProblem",
+      "projectName": "java_69a3b4e2"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - StringRotationBy2Places",
+      "request": "launch",
+      "mainClass": "StringRotationBy2Places",
+      "projectName": "java_69a3b4e2"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - KnapsackProblem",
       "request": "launch",
       "mainClass": "com.practise.DynamicProgramming.KnapsackProblem",

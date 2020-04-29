@@ -48,6 +48,7 @@ public int getMaximumValueForAllowedWeight(int[] weights, int[] values, int tota
     int l = weights.length;
     int m = totalWeight;
     System.out.println("Included Weights");
+    
     while( valuesForWeights[l][m] != 0) {
         if(valuesForWeights[l-1][m] == valuesForWeights[l][m]) {
             l = l-1;
